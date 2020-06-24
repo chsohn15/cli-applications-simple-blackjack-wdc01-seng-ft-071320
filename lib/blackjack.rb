@@ -42,7 +42,6 @@ def hit? (curr_total)
       prompt_user
     end
     sum = curr_total + new_card
-    
 end
 
 def invalid_command
