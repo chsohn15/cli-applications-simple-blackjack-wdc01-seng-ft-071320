@@ -38,14 +38,14 @@ def hit? (curr_total)
     if input == 'h'
       new_card = deal_card
       sum = curr_total + new_card
+      return sum
     elsif input == 's'
       sum = curr_total
+      return sum
     else
       invalid_command
       prompt_user
-      sum = curr_total
     end
-    sum
 end
 
 def invalid_command
