@@ -34,7 +34,7 @@ end
 
 def hit? (curr_total)
     prompt_user
-    input = get_user_input.to_nearest_i
+    input = get_user_input.round
     if input == 'h'
       new_card = deal_card
     elsif input != 's'
