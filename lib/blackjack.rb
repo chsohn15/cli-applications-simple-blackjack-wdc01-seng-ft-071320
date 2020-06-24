@@ -65,6 +65,6 @@ def runner
     second_total = hit?(first_total)
     display_card_total(second_total)
   end
-end_game
+end_game(second_total)
 end
     
