@@ -42,6 +42,7 @@ def hit? (curr_total)
       sum = curr_total
     elsif input != 'h' || input != 's'
       sum = curr_total
+      prompt_user
       invalid_command
       prompt_user
     end
